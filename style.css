@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper_pad {
+  padding: 2rem 0;
+}
+
+.menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  z-index: 2;
+}
+
+.menu__item {
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.color-purple {
+  color: #32325d;
+}
+
+.button {
+  padding: 10px 13px;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.button_bg-purple {
+  background-color: #845cff;
+}
+
+.font-size {
+  font-weight: 700;
+}
+
+.button_font-properties {
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+/* menu */
+
+.main {
+  width: 100%;
+  height: 70vh;
+}
+
+.main_margin-bottom {
+  margin-bottom: 10rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-justify-content {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.main__card {
+  width: 35%;
+  min-width: 420px;
+}
+
+.main__pos-rel {
+  position: relative;
+}
+
+.main__title {
+  font-size: 48px;
+}
+
+.main__text {
+  font-size: 23px;
+  line-height: 1.4em;
+}
+
+.color-pale-purple {
+  color: #525f7f;
+}
+
+.main__text_pad {
+  padding: 50px 0;
+}
+
+.main__text-pad-l {
+  padding-left: 30px;
+}
+
+.img-vector-smart {
+  width: 37%;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.img__pos-abs {
+  position: absolute;
+}
+
+.img-vector-smart_position-bl {
+  bottom: 330px;
+  left: 10rem;
+}
+
+.img-vector-smart_position-l {
+  width: 26% !important;
+  left: 40px;
+}
+
+.img-shape {
+  width: 51%;
+  opacity: 0.9;
+  bottom: 120px;
+  right: 0px;
+  z-index: 1;
+}
+
+.img-sights {
+  width: 50%;
+  opacity: 0.9;
+  bottom: 250px;
+  right: 0px;
+  z-index: 1;
+}
+
+.wrapper-img {
+}
+
+.section-main {
+  width: 42%;
+}
+
+.section-main_pad {
+  padding-top: 100px;
+}
+
+.section__title_font-weight {
+  font-weight: lighter;
+}
+
+.section__text_properties {
+  font-size: 18px !important;
+  line-height: 1.2rem !important;
+}
+
+.section_item {
+  width: 40%;
+  margin-bottom: 30px;
+  padding: 50px 35px;
+  box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.section_item:hover {
+  box-shadow: -5px 5px 15px rgba(150, 3, 235, 0.384);
+}
+
+.section__text-padding {
+  padding-top: 1.4rem;
+}
+
+.section__img_margin-b {
+  margin-bottom: 2rem;
+}
